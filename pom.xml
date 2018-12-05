@@ -33,7 +33,7 @@
   <packaging>pom</packaging>
   <name>XWiki Pro - Distribution - Parent POM</name>
   <properties>
-    <xwiki.pro.version>10.3-SNAPSHOT</xwiki.pro.version>
+    <xwiki.pro.version>10.3</xwiki.pro.version>
     <!-- Flavors known to be valid with the current distribution -->
     <xwiki.extension.knownFlavors>
       com.xwiki.pro:xwiki-pro-distribution-flavor-mainwiki/${project.version},
@@ -43,8 +43,8 @@
     <xwiki.spoon.skip>true</xwiki.spoon.skip>
   </properties>
   <scm>
-    <connection>scm:git:https://github.com/xwikisas/xwiki-pro-distribution.git</connection>
-    <developerConnection>scm:git:https://github.com/xwikisas/xwiki-pro-distribution.git</developerConnection>
+    <connection>scm:git:git://github.com/xwikisas/xwiki-pro-distribution.git</connection>
+    <developerConnection>scm:git:git@github.com:xwikisas/xwiki-pro-distribution.git</developerConnection>
     <url>https://github.com/xwikisas/xwiki-pro-distribution</url>
     <tag>HEAD</tag>
   </scm>
