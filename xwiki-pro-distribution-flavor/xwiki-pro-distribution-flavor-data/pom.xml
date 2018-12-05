@@ -25,7 +25,7 @@
   <parent>
     <groupId>com.xwiki.pro</groupId>
     <artifactId>xwiki-pro-distribution-flavor</artifactId>
-    <version>10.8.3-SNAPSHOT</version>
+    <version>10.8.2-SNAPSHOT</version>
   </parent>
   <artifactId>xwiki-pro-distribution-flavor-data</artifactId>
   <name>XWiki Pro - Distribution - Flavor - Data</name>
@@ -100,7 +100,8 @@
               <configuration>
                 <target>
                   <echo message="Unzipping the XWiki Pro XIP file" />
-                  <unzip src="${project.build.directory}/dependency/xwiki-pro-distribution-flavor-xip.xip" dest="${project.build.directory}/data/extension/repository" />
+                  <unzip src="${project.build.directory}/dependency/xwiki-pro-distribution-flavor-xip.xip"
+                    dest="${project.build.directory}/data/extension/repository" />
                 </target>
               </configuration>
             </execution>
