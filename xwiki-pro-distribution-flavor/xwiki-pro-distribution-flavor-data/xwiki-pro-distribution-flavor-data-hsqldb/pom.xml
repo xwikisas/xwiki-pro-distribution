@@ -43,11 +43,23 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-xwiki-pro-xip</id>
+            <phase>prepare-package</phase>
+          </execution>
+        </executions>
       </plugin>
       <!-- Unpack the XWiki Pro XIP -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>unpack-xwiki-pro-xip</id>
+            <phase>prepare-package</phase>
+          </execution>
+        </executions>
       </plugin>
       <!-- Copy and filter the Hibernate config file which will be used by the packager plugin -->
       <plugin>

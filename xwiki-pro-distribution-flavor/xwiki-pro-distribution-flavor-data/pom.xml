@@ -72,7 +72,8 @@
           <executions>
             <execution>
               <id>copy-xwiki-pro-xip</id>
-              <phase>prepare-package</phase>
+              <!-- Make sure this execution is not used by default (you need to call it explicitly in your pom). -->
+              <phase>none</phase>
               <goals>
                 <goal>copy</goal>
               </goals>
@@ -93,7 +94,8 @@
           <executions>
             <execution>
               <id>unpack-xwiki-pro-xip</id>
-              <phase>prepare-package</phase>
+              <!-- Make sure this execution is not used by default (you need to call it explicitly in your pom). -->
+              <phase>none</phase>
               <goals>
                 <goal>run</goal>
               </goals>
