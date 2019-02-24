@@ -25,7 +25,7 @@
   <parent>
     <groupId>com.xwiki.pro</groupId>
     <artifactId>xwiki-pro-distribution-flavor-data</artifactId>
-    <version>10.8.3-SNAPSHOT</version>
+    <version>10.11-SNAPSHOT</version>
   </parent>
   <artifactId>xwiki-pro-distribution-flavor-data-hsqldb</artifactId>
   <name>XWiki Pro - Distribution - Flavor - Data - HSQLDB</name>
