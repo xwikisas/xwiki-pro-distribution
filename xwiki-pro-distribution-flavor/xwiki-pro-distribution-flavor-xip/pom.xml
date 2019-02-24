@@ -52,6 +52,22 @@
       <version>${xwiki.pro.version}</version>
       <type>xar</type>
       <scope>provided</scope>
+      <!-- Fix BannedDependencies enforcer errors -->
+      <!-- We exclude the old versions but don't include the new versions because these are core extensions. -->
+      <exclusions>
+        <!-- Javax Mail artifact id changed, the current one is com.sun.mail:javax.mail -->
+        <!-- This is a transitive dependency of application-googleapps -->
+        <exclusion>
+          <groupId>javax.mail</groupId>
+          <artifactId>mail</artifactId>
+        </exclusion>
+        <!-- Javax Activation artifact id changed, the current one is javax.activation:javax.activation-api -->
+        <!-- This is a transitive dependency of application-googleapps -->
+        <exclusion>
+          <groupId>javax.activation</groupId>
+          <artifactId>activation</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
   <build>

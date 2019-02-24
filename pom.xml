@@ -33,7 +33,7 @@
   <packaging>pom</packaging>
   <name>XWiki Pro - Distribution - Parent POM</name>
   <properties>
-    <xwiki.pro.version>10.3</xwiki.pro.version>
+    <xwiki.pro.version>10.4</xwiki.pro.version>
     <!-- Flavors known to be valid with the current distribution -->
     <xwiki.extension.knownFlavors>
       com.xwiki.pro:xwiki-pro-distribution-flavor-mainwiki/${project.version},
@@ -70,7 +70,7 @@
       <dependency>
         <groupId>com.xwiki.licensing</groupId>
         <artifactId>application-licensing-licensor-api</artifactId>
-        <version>1.13.1</version>
+        <version>1.13.2</version>
       </dependency>
       <!-- application-licensing-licensor-api -->
       <dependency>
