@@ -25,7 +25,7 @@
   <parent>
     <groupId>com.xwiki.pro</groupId>
     <artifactId>xwiki-pro-distribution-flavor</artifactId>
-    <version>10.11-SNAPSHOT</version>
+    <version>10.11</version>
   </parent>
   <artifactId>xwiki-pro-distribution-flavor-data</artifactId>
   <name>XWiki Pro - Distribution - Flavor - Data</name>
